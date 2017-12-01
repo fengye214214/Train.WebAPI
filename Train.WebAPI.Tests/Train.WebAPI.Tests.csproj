@@ -109,12 +109,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Train.WebAPI\Train.WebAPI.csproj">
-      <Project>{2F6FF1E0-8DF4-4A3D-B4BA-B66B7951B1E0}</Project>
-      <Name>Train.WebAPI</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
